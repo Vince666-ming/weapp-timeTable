@@ -1,0 +1,151 @@
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  /* width:107rpx;  */
+  padding-left: 10rpx;
+  padding-top: 8rpx;
+}
+
+.icon {
+  width: 53rpx;
+  height: 56rpx;
+  padding-left: 30rpx;
+  padding-right: 4rpx;
+  padding-top: 8rpx;
+}
+
+.container image {
+  width: 58rpx;
+  height: 56rpx;
+}
+
+.container text {
+  font-size: 24rpx;
+  color: #bbb;
+  line-height: 24rpx;
+  position: relative;
+  bottom: 10rpx;
+  left: 6rpx;
+}
+
+.goToComment {
+  color: #7f8699;
+  font-size: 35rpx;
+}
+
+.content {
+  background: #e9f2ff;
+  font-family: "Microsoft YaHei";
+}
+
+.list {
+  background-color: white;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+  margin: 10rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+  display: block;
+  float: left;
+  opacity: 0.9;
+}
+
+.userinfo-nickname {
+  /* color: #aaa; */
+  margin-bottom: 5px;
+}
+
+.nowTime {
+  color: #aaa;
+  margin-left: 10px;
+  font-size: 25rpx;
+}
+
+.hr {
+  background: #e9f2ff;
+  height: 10px;
+}
+
+.space {
+  background: #e9f2ff;
+  height: 10rpx;
+}
+
+.xian {
+  background: #e9f2ff;
+  height: 4px;
+}
+
+.item {
+  width: 720rpx;
+  background: #fff;
+}
+
+.imageTabel {
+  background: #e9f2ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-left: 10rpx; */
+  width: 730rpx;
+}
+
+.saveImg {
+  margin-left: 10rpx;
+}
+
+.collect {
+  position: absolute;
+  right: 15rpx;
+}
+
+.words {
+  font-size: 35rpx;
+  margin: 10rpx;
+  background-color: white;
+  width: 720rpx;
+}
+
+.upload {
+  opacity: 0.6;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20rpx;
+  right: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  /* position: fixed; */
+  /* display: flex;
+  flex-direction: row; */
+  /* bottom: 0; */
+}
+
+.btn1 {
+  margin-left: 10rpx;
+  /* line-height: 2rpx; */
+  width: 360rpx;
+  /* height: 100rpx; */
+  text-align: center;
+  
+}
+.comments{
+  display: flex;
+  flex-direction: column;
+}

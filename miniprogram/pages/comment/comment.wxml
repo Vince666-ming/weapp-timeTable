@@ -1,0 +1,31 @@
+<view class='login' wx:if="{{nickName==''}}">
+  <van-button class='loginBtn' size="large" type="info" open-type="getUserInfo" bind:getuserinfo="getUserInfo">授权登录</van-button>
+</view>
+<view wx:else class="content list">
+  <image class="userinfo-avatar" src='{{list.avatarUrl}}'></image>
+  <view class='userinfo-nickname'>{{list.nickName}}</view>
+  <view class="nowTime">{{list.nowTime}}</view>
+  <image class="imageTabel" data-id='{{item.fileIds}}' bindtap="previewImg" src="{{list.fileIds}}" mode="widthFix"></image>
+  <view class="words">{{list.content}}</view>
+  <view class="icons">
+    <!-- 喜欢 -->
+    <view class="container" data-id="{{list._id}}" bind:tap="onLike">
+      <image src='/pages/logs/bar/like1.png' />
+      <text wx:if="{{list.zan<1000}}">{{list.zan+zan}}</text>
+      <text wx:else>1k+</text>
+    </view>
+    <!-- 收藏 -->
+    <image bindtap="onCollect" data-id="{{list}}" class="icon" src="/pages/logs/bar/collect1.png"></image>
+    <!-- 下载 -->
+    <image class="icon" bindtap="saveImg" data-id="{{list.fileIds}}" src="/pages/logs/bar/download1.png"></image>
+
+  </view>
+  <view wx:for="{{list.colComment}}" wx:for-item="colComment" wx:key="key">
+  <text selectable='true'>{{colComment}}</text>
+  </view>
+  <van-cell-group>
+    <van-field value="{{ comment }}" bind:change="inputConmment" type="textarea" placeholder="发条友善的评论吧~" autosize border="{{ true }}">
+      <van-button slot="button" bind:click="submit" size="small" show-confirm-bar type="primary">发表</van-button>
+    </van-field>
+  </van-cell-group>
+</view>

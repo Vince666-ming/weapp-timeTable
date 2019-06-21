@@ -1,0 +1,19 @@
+<view class="content">
+  <view class="title">常见问题</view>
+  <view class="hr"></view>
+  <navigator class="item" url="/meFunctions/documents/documents">
+    <view class="order">1、如何下载文档？</view>
+    <view class="detail">></view>
+  </navigator>
+  <view class="xian"></view>
+  <navigator class="item" url="/meFunctions/pic/pic">
+    <view class="order">2、如何预览、下载图片</view>
+    <view class="detail">></view>
+  </navigator>
+  <view class="xian"></view>
+  <navigator class="item" url="/meFunctions/wea/wea">
+    <view class="order">3、怎么获取天气信息？</view>
+    <view class="detail">></view>
+  </navigator>
+  <view class="xian"></view>
+</view>

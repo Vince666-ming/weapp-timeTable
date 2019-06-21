@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "计划表模板",
+  "usingComponents": {
+    "v-poster":"/components/poster/poster",
+    "v-weather":"/components/nowWeather/nowWeather"
+  }
+}

@@ -1,0 +1,6 @@
+/**app.wxss**/
+page {
+  font-family: 微软雅黑,宋体,PingFangSC-Thin; 
+  font-size:16px;
+  /* overflow: hidden; */
+} 

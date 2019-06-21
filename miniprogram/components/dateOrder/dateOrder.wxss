@@ -1,0 +1,45 @@
+/* pages/me/me.wxss */
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  font-family: "Microsoft YaHei";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.item {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.order {
+  position: absolute;
+  left: 15px;
+  font-size: 15px;
+}
+
+.detail {
+  font-size: 15px;
+  position: absolute;
+  right: 2px;
+  color: #888;
+}
+
+.xian {
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+
+.next {
+  position: fixed;
+  bottom: 0;
+  width: 85%;
+}

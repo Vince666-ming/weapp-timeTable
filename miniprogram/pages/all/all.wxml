@@ -1,0 +1,12 @@
+<van-dialog id="van-dialog" />
+<navigator open-type="switchTab" url='/pages/create/create'>
+  <van-button size="large">创建新的时间表</van-button>
+</navigator>
+<van-tabs color="#343434" type="card">
+  <van-tab title="按创建时间排序">
+    <v-createOrder/>
+  </van-tab>
+  <van-tab title="按计划日期排序">
+    <v-dateOrder/>
+  </van-tab>
+</van-tabs>

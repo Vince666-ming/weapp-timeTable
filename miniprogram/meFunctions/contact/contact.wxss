@@ -1,0 +1,17 @@
+.img {
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 20rpx;
+}
+
+.hr {
+  width: 100%;
+  height: 15px;
+  background-color: #f4f5f6;
+}
+
+.space1 {
+  width: 100%;
+  height: 50px;
+  /* background-color: #f4f5f6; */
+}

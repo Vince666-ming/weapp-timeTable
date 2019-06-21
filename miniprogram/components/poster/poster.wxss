@@ -1,0 +1,9 @@
+.poster {
+  text-align: center;
+  width: 100%;
+}
+
+.silde-image {
+  width: 100%;
+  height: 72px;
+}

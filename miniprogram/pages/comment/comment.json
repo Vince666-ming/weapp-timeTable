@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-field": "../../miniprogram_npm/vant-weapp/field",
+    "van-button": "vant-weapp/button"
+  }
+}

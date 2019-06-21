@@ -1,0 +1,21 @@
+<van-dialog id="van-dialog" />
+<view class="content">
+  <!-- 一条严肃的分割线 -->
+  <view class="xian"></view>
+  <view class="list" wx:for="{{list}}" wx:key="key">
+    <image data-id='{{item.fileIds}}' bindtap="previewImg" class="imageTabel" src="{{item.fileIds}}" mode="widthFix"></image>
+    <view class="xian"></view>
+    <view class="save1">
+      <button class="save2" type="default" data-id="{{item.fileIds}}" bindtap='savePicture'>保存图片</button>
+      <button class="save2" type="default" bindtap='saveDoc' data-id="{{item.content}}">保存文档</button>
+    </view>
+    <view class="hr"></view>
+  </view>
+
+  <!-- 我是一条严肃的分割线 -->
+  <!-- <view class="space"></view> -->
+  <view class="btn">
+    <van-button class="btn1" type="info" size="large" bind:click="last">上一页</van-button>
+    <van-button class="btn1" type="info" size="large" bind:click="next">下一页</van-button>
+  </view>
+</view>

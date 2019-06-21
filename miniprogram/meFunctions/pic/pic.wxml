@@ -1,0 +1,14 @@
+<view class="content">
+  <view>第一种方法：</view>
+  <view>1、进入小程序，找到“保存图片”按钮</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/pic1.PNG"></image>
+  <view>2、保存成功</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/pic3.PNG"></image>
+  <view>第二种方法：</view>
+  <view>1、点击图片自动进入预览状态</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/pic1.PNG"></image>
+  <view>2、长按图片出现“保存图片”选项</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/pic2.PNG"></image>
+  <view>5、保存成功</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/pic3.PNG"></image>
+</view>

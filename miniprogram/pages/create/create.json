@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "创建时间表",
+  "usingComponents": {
+    "van-field": "../../miniprogram_npm/vant-weapp/field",
+    "van-rate": "vant-weapp/rate",
+    "van-button": "vant-weapp/button"
+  }
+}

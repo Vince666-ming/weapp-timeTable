@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "v-dayIndex":"/components/dayIndex/dayIndex",
+    "v-moIndex":"/components/moIndex/moIndex",
+    "v-weekIndex":"/components/weekIndex/weekIndex",
+    "van-tab": "vant-weapp/tab",
+    "van-tabs": "vant-weapp/tabs",
+    "van-dialog": "/miniprogram_npm/vant-weapp/dialog/index"
+  }
+  
+}

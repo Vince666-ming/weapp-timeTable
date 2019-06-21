@@ -1,0 +1,21 @@
+<van-dialog id="van-dialog" />
+<view class="content">
+  <text style=' color:#343434;' wx:if="{{timeList.length==0}}">页面竟然空空如也Σ(⊙▽⊙"a\n快去创建属于自己的时间表吧~</text>
+  <view wx:for="{{timeList}}" wx:key="timeList">
+    <view class="xian"></view>
+    <view  class="item">
+      <view class="order" >{{item.date}}</view>
+      <view class="detail">
+      <van-button data-id="{{item._id}}" bind:click="update" size="small" round type="info">修改</van-button>
+        <van-button data-id="{{item._id}}" bind:click="look" size="small" round type="primary">查看</van-button>
+        <van-button data-id="{{item._id}}" bind:click="delete" round size="small" type="danger">删除</van-button>
+      </view>
+    </view>
+  </view>
+  <view class="xian"></view>
+  <view style='height:110rpx;width:100%;'> </view>
+  <view class='next'>
+  <van-button size="large"  bind:click="last">上一页</van-button>
+    <van-button size="large" bind:click="next">下一页</van-button>
+  </view>
+</view>

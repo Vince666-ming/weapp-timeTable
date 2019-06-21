@@ -1,0 +1,6 @@
+.content{
+  font-size:17px;
+  font-family: 微软雅黑,宋体;
+  background-color: #f4f5f6;
+
+}

@@ -1,0 +1,11 @@
+<view class="poster">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:74px;">
+    <block wx:for="{{imgUrls}}" wx:key="navItems">
+      <view bindtap="navBtn" id="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" class="silde-image"></image>
+        </swiper-item>
+      </view>
+    </block>
+  </swiper>
+</view>

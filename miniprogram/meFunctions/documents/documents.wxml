@@ -1,0 +1,12 @@
+<view class="content">
+  <view>1、进入小程序，找到“保存文档”按钮</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/1.png"></image>
+  <view>2、点击“保存文档”按钮，一键复制下载链接</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/2.png"></image>
+  <view>3、将链接发送至电脑</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/3.png"></image>
+  <view>4、将连接粘贴至电脑任意浏览器</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/4.png"></image>
+  <view>5、下载成功</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/5.png"></image>
+</view>

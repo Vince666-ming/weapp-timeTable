@@ -1,0 +1,35 @@
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width:100%;
+  height:100%;
+  position:  absolute;
+  background-image: url(https://www.vince666.cn/poster/login.jpg);
+  background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;
+}
+.loginBtn{
+  width: 400rpx;
+}
+.img {
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 20rpx;
+}
+
+.img1 {
+  width: 600rpx;
+  margin-left: 75rpx;
+}
+
+.hr {
+  width: 100%;
+  height: 15px;
+  background-color: #f4f5f6;
+}
+
+.space1 {
+  width: 100%;
+  height: 50px;
+  /* background-color: #f4f5f6; */
+}

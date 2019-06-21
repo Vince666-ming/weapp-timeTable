@@ -1,0 +1,7 @@
+<view class="content">
+  <view>1、进入“我的”页面，点击“天气信息”按钮</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/wea1.png"></image>
+  <view>2、出现近七日天气信息界面</view>
+  <image class="image" mode="widthFix" src="http://www.vince666.cn/questions/wea2.png"></image>
+  <!-- /image> -->
+</view>

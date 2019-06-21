@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "所有时间表",
+  "usingComponents": {
+    "van-button": "vant-weapp/button",
+    "van-toast": "vant-weapp/toast",
+    "van-dialog": "/miniprogram_npm/vant-weapp/dialog/index",
+    "van-tab": "vant-weapp/tab",
+    "van-tabs": "vant-weapp/tabs",
+    "v-createOrder": "/components/createOrder/createOrder",
+    "v-dateOrder": "/components/dateOrder/dateOrder"
+  }
+}

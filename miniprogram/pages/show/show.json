@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的时间表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-cell": "vant-weapp/cell",
+    "van-cell-group": "vant-weapp/cell-group",
+    "van-collapse": "vant-weapp/collapse",
+    "van-collapse-item": "vant-weapp/collapse-item",
+    "van-button": "vant-weapp/button"
+  }
+}

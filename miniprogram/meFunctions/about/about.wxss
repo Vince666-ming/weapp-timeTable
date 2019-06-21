@@ -1,0 +1,7 @@
+/* meFunctions/about/about.wxss */
+.content{
+  font-family: 微软雅黑,宋体;
+  font-size: 20px;
+  height: 10000000px;
+  background-color: #f4f5f6;
+}

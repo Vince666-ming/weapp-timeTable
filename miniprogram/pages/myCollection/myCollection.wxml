@@ -1,0 +1,38 @@
+<van-dialog id="van-dialog" />
+<text style=' color:#343434;' wx:if="{{list.length==0}}">页面竟然空空如也Σ(⊙▽⊙"a\n快去多收藏几张时间表吧~</text>
+<view class="content">
+  <navigator url="/pages/upload/upload">
+    <image src="/pages/logs/bar/upload.png" class="upload" />
+  </navigator>
+  <!-- 一条严肃的分割线 -->
+  <view class="list" wx:for="{{list}}" wx:key="key">
+    <image class="userinfo-avatar" src='{{item.avatarUrl}}'></image>
+    <view class='userinfo-nickname'>{{item.nickName}}</view>
+    <view class="nowTime">{{item.nowTime}}</view>
+    <image class="imageTabel" data-id='{{item.fileIds}}' bindtap="previewImg" src="{{item.fileIds}}" mode="widthFix"></image>
+    <view class="words">{{item.content}}</view>
+
+    <view class="icons">
+      <!-- 喜欢 -->
+      <view class="container" data-id="{{item._id}}" bind:tap="onLike">
+        <image src="/pages/logs/bar/like1.png" />
+        <text wx:if="{{item.zan<1000}}">{{item.zan+zan}}</text>
+        <text wx:else>1k+</text>
+      </view>
+      <!-- 收藏 -->
+      <image bindtap="disCollect" data-id="{{item._id}}" class="icon" src="/pages/logs/bar/collect@dis.png"></image>
+      <!-- 下载 -->
+      <image class="icon" bindtap="saveImg" data-id="{{item.fileIds}}" src="/pages/logs/bar/download1.png"></image>
+      <!-- 评论 -->
+      <view bindtap='goToComment' data-id="{{item._id}}">
+        <image class='icon' src='/pages/logs/bar/comment1.png'></image>
+      </view>
+    </view>
+
+    <view>{{item.colComment[0]}}</view>
+    <view>{{item.colComment[1]}}</view>
+    <view wx:if="{{item.colComment.length>0}}" class="goToComment" bindtap='goToComment' data-id="{{item._id}}">查看全部{{item.colComment.length}}评论</view>
+    <view wx:else class="goToComment" bindtap='goToComment' data-id="{{item._id}}">暂无评论，发句友善的评论吧~</view>
+  </view>
+  <!-- 我是一条严肃的分割线 -->
+</view>

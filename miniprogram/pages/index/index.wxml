@@ -1,0 +1,33 @@
+<van-dialog id="van-dialog" />
+<van-tabs animated swipeable line-width="80" bind:click="onClick">
+  <van-tab title="日计划表">
+    <v-dayIndex />
+  </van-tab>
+  <van-tab title="周末计划表">
+    <v-moIndex/>
+  </van-tab>
+  <van-tab title="周计划表">
+    <v-weekIndex/>
+  </van-tab>
+</van-tabs>
+<!-- <view class="content">
+  <view class="type">
+    <view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav">日计划表</view>
+     <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav">周末计划表</view>
+    <view class="{{currentTab==2?'select':'default'}}" data-current="2" bindtap="switchNav">周计划表</view>
+  </view>
+  <swiper current="{{currentTab}}" style="height:1000px;">
+     日计划表
+    <swiper-item class="swiperContent">
+      <v-dayIndex/>
+    </swiper-item>
+    周末计划表
+    <swiper-item class="swiperContent">
+      <v-moIndex/>
+    </swiper-item>
+    周计划表
+    <swiper-item class="swiperContent">
+      <v-weekIndex/>
+    </swiper-item>
+  </swiper>
+</view>  -->

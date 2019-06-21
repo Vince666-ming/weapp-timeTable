@@ -1,0 +1,38 @@
+.content {
+  font-family: "Microsoft YaHei";
+}
+
+.type {
+  display: flex;
+  flex-direction: row;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.type view {
+  margin: 0 auto;
+}
+
+.select {
+  font-size: 14px;
+  font-weight: bold;
+  width: 25%;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 5rpx solid #000;
+}
+
+.default {
+  width: 25%;
+  font-size: 12px;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+}
+
+.swiperContent {
+  background: #ddd;
+  height: 10000rpx;
+  overflow: scroll;
+}

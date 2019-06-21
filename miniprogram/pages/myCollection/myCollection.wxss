@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  /* width:70px;  */
+  padding: 10rpx;
+  padding-right: 0px;
+  padding-top: 15rpx;
+}
+
+.goToComment {
+  color: #7f8699;
+  font-size: 35rpx;
+}
+
+.container text {
+  font-size: 24rpx;
+  color: #bbb;
+  line-height: 24rpx;
+  position: relative;
+  bottom: 10rpx;
+  left: 6rpx;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  width: 53rpx;
+  height: 56rpx;
+  padding-left: 20rpx;
+  padding-top: 8rpx;
+}
+
+.container image {
+  width: 50rpx;
+  height: 46rpx;
+}
+
+.collectImg {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.content {
+  background: #e9f2ff;
+  font-family: "Microsoft YaHei";
+}
+
+.list {
+  background-color: white;
+  margin: 10rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+  display: block;
+  float: left;
+  opacity: 0.9;
+}
+
+.userinfo-nickname {
+  /* color: #aaa; */
+  margin-bottom: 5px;
+}
+
+.nowTime {
+  color: #aaa;
+  margin-left: 10px;
+  font-size: 25rpx;
+}
+
+.hr {
+  background: #e9f2ff;
+  height: 10px;
+}
+
+.space {
+  background: #e9f2ff;
+  height: 200rpx;
+}
+
+.xian {
+  background: #e9f2ff;
+  height: 4px;
+}
+
+.item {
+  width: 720rpx;
+  background: #fff;
+}
+
+.imageTabel {
+  background: #e9f2ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-left: 10rpx; */
+  width: 730rpx;
+}
+
+.saveImg {
+  margin-left: 10rpx;
+}
+
+.collect {
+  position: absolute;
+  right: 15rpx;
+}
+
+.words {
+  font-size: 35rpx;
+  margin: 10rpx;
+  background-color: white;
+  width: 720rpx;
+}
+
+.upload {
+  opacity: 0.6;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20rpx;
+  right: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.next {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

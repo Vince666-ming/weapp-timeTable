@@ -1,0 +1,6 @@
+.date {
+  padding-left: 35rpx;
+  padding-top: 35rpx;
+  padding-bottom: 35rpx;
+  font-size: 15px;
+}

@@ -1,0 +1,63 @@
+<view class="date">Date：{{timeList.date}}</view>
+<van-collapse value="{{ activeNames }}" bind:change="onChange" >
+  <van-collapse-item wx:if="{{timeList.six!=''||timeList.sixDetails!=''}}" title="6:00-7:00" value="{{timeList.six}}">
+    {{timeList.sixDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.seven!=''||timeList.sevenDetails!=''}}" title="7:00-8:00" value="{{timeList.seven}}">
+    {{timeList.sevenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.eight!=''||timeList.eightDetails!=''}}" title="8:00-9:00" value="{{timeList.eight}}">
+    {{timeList.eightDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.nine!=''||timeList.nineDetails!=''}}" title="9:00-10:00" value="{{timeList.nine}}">
+    {{timeList.nineDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.ten!=''||timeList.tenDetails!=''}}" title="10:00-11:00" value="{{timeList.ten}}">
+    {{timeList.tenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.eleven!=''||timeList.elevenDetails!=''}}" title="11:00-12:00" value="{{timeList.eleven}}">
+    {{timeList.elevenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.twelve!=''||timeList.twelveDetails!=''}}" title="12:00-13:00" value="{{timeList.twelve}}">
+    {{timeList.twelveDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.thirteen!=''||timeList.thirteenDetails!=''}}" title="13:00-14:00" value="{{timeList.thirteen}}">
+    {{timeList.thirteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.fourteen!=''||timeList.fourteenDetails!=''}}" title="14:00-15:00" value="{{timeList.fourteen}}">
+    {{timeList.fourteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.fifteen!=''||timeList.fifteenDetails!=''}}" title="15:00-16:00" value="{{timeList.fifteen}}">
+    {{timeList.fifteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.sixteen!=''||timeList.sixteenDetails!=''}}" title="16:00-17:00" value="{{timeList.sixteen}}">
+    {{timeList.sixteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.seventeen!=''||timeList.seventeenDetails!=''}}" title="17:00-18:00" value="{{timeList.seventeen}}">
+    {{timeList.seventeenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.eighteen!=''||timeList.eighteenDetails!=''}}" title="18:00-19:00" value="{{timeList.eighteen}}">
+    {{timeList.eighteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.nineteen!=''||timeList.nineteenDetails!=''}}" title="19:00-20:00" value="{{timeList.nineteen}}">
+    {{timeList.nineteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.twenty!=''||timeList.twentyDetails!=''}}" title="20:00-21:00" value="{{timeList.twenty}}">
+    {{timeList.twentyDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.twenty1!=''||timeList.twenty1Details!=''}}" title="21:00-22:00" value="{{timeList.twenty1}}">
+    {{timeList.twenty1Details}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.twenty2!=''||timeList.twenty2Details!=''}}" title="22:00-23:00" value="{{timeList.twenty2}}">
+    {{timeList.twenty2Details}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.twenty3!=''||timeList.twenty3Details!=''}}" title="23:00-24:00" value="{{timeList.twenty3}}">
+    {{timeList.twenty3Details}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.twenty4!=''||timeList.twenty4Details!=''}}" title="00:00-01:00" value="{{timeList.twenty4}}">
+    {{timeList.twenty4Details}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList.remarks!=''}}" title="备注" value="点击查看">
+    {{timeList.remarks}}
+  </van-collapse-item>
+</van-collapse>

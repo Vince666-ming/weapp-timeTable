@@ -1,0 +1,9 @@
+<view class="hr"></view>
+<!-- <van-cell-group> -->
+<van-field value="{{ content }}" border="{{ false }}" type="textarea" placeholder="客官请献上您珍贵的意见" size="large" autosize bind:change="onContentChange" />
+<view class="space1"></view>
+<image class="img" src="{{item}}" wx:for="{{images}}" wx:key="{{index}}"></image>
+<image class="img" bindtap="uploadImg" src='/pages/logs/bar/camera.jpg' />
+<van-rate value="{{ score }}" bind:change="onScoreChange" />
+<!-- <view style='height:220rpx;width:100%;'> </view> -->
+<van-button size="large" type="danger" bindtap="submit">提交</van-button>

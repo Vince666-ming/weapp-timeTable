@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-button": "vant-weapp/button",
+    "van-dialog": "/miniprogram_npm/vant-weapp/dialog/index",
+    "van-toast": "vant-weapp/toast"
+  }
+}

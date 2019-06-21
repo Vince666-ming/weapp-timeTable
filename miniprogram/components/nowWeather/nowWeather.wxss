@@ -1,0 +1,50 @@
+.container {
+  font-family: 微软雅黑, 宋体;
+  font-size: 14px;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  /* line-height:50rpx; */
+}
+
+.title {
+  font-size: 16px;
+}
+
+.today {
+  height: 50%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #7ecef4;
+  box-shadow: 10px 10px 20px #7ecef4;
+}
+
+.temperature {
+  font-size: 15px;
+}
+
+.wind {
+  font-size: 13px;
+}
+
+.weather {
+  font-size: 20px;
+}
+
+.space {
+  font-size: 14px;
+  line-height: 40rpx;
+}
+
+.hr {
+  width: 100%;
+  height: 50rpx;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.a {
+  width: 40rpx;
+  height: 37rpx;
+}

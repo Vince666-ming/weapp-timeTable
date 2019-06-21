@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/create/create",
+    "pages/me/me",
+    "pages/template/template",
+    "pages/show/show",
+    "pages/all/all",
+    "pages/details/details",
+    "pages/share/share",
+    "pages/upload/upload",
+    "pages/myCollection/myCollection",
+    "pages/comment/comment",
+    "pages/shareBylikes/shareBylikes",
+    "pages/update/update"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarTitleText": "时间计划表",
+    "navigationBarBackgroundColor": "#343434",
+    "navigationBarTextStyle": "white"
+  },
+  
+  "tabBar": {
+    "color": "#7f8699",
+    "selectedColor": "#5CACEE",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/logs/bar/index-0.jpg",
+        "selectedIconPath": "pages/logs/bar/index-1.jpg"
+      },
+      {
+        "pagePath": "pages/create/create",
+        "text": "创建",
+        "iconPath": "pages/logs/bar/create-0.jpg",
+        "selectedIconPath": "pages/logs/bar/create-1.jpg"
+      },
+      
+      {
+        "pagePath": "pages/share/share",
+        "text": "分享",
+        "iconPath": "pages/logs/bar/share-0.png",
+        "selectedIconPath": "pages/logs/bar/share-1.png"
+      },
+      {
+        "pagePath": "pages/template/template",
+        "text": "模板",
+        "iconPath": "pages/logs/bar/template-0.jpg",
+        "selectedIconPath": "pages/logs/bar/template-1.jpg"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "pages/logs/bar/me-0.jpg",
+        "selectedIconPath": "pages/logs/bar/me-1.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

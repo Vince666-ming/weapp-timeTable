@@ -1,0 +1,59 @@
+.content {
+  background: #ddd;
+  font-family: "Microsoft YaHei";
+}
+
+.imageTabel {
+  background: #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-left: 10rpx; */
+  width: 730rpx;
+}
+
+.list {
+  background-color: white;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+  margin: 10rpx;
+}
+
+.hr {
+  background: #ddd;
+  height: 8rpx;
+}
+
+.xian {
+  background: #ddd;
+  height: 4px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  /* position: fixed; *//* display: flex;
+  flex-direction: row; *//* bottom: 0; */
+}
+
+.btn1 {
+  margin-left: 10rpx;
+  /* line-height: 2rpx; */
+  width: 360rpx;
+  /* height: 100rpx; */
+  text-align: center;
+}
+
+.save1 {
+  display: flex;
+  flex-direction: row;
+  background: #ddd;
+}
+
+.save2 {
+  /* margin-left: 5rpx; */
+  line-height: 70rpx;
+  width: 49%;
+  height: 70rpx;
+  text-align: center;
+}

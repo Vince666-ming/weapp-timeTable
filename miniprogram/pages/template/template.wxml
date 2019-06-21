@@ -1,0 +1,10 @@
+<v-weather/>
+<v-poster/>
+<!-- <view class="space">所有计划表</view> -->
+<block class="nav" wx:for="{{navs}}" wx:key="navItems">
+  <view class="item" bindtap="navBtn" id="{{index}}">
+    <image src="{{item.img}}" style="width:{{item.width}}px;height:{{item.height}}px;"></image>
+    <view>{{item.name}}</view>
+    <view class="hr"></view>
+  </view>
+</block>

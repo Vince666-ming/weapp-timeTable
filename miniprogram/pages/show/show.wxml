@@ -1,0 +1,66 @@
+<view class="date">Date：{{timeList[0].date}}</view>
+<van-collapse value="{{ activeNames }}" bind:change="onChange" >
+  <van-collapse-item wx:if="{{timeList[0].six!=''||timeList[0].sixDetails!=''}}" title="6:00-7:00" value="{{timeList[0].six}}">
+    {{timeList[0].sixDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].seven!=''||timeList[0].sevenDetails!=''}}" title="7:00-8:00" value="{{timeList[0].seven}}">
+    {{timeList[0].sevenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].eight!=''||timeList[0].eightDetails!=''}}" title="8:00-9:00" value="{{timeList[0].eight}}">
+    {{timeList[0].eightDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].nine!=''||timeList[0].nineDetails!=''}}" title="9:00-10:00" value="{{timeList[0].nine}}">
+    {{timeList[0].nineDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].ten!=''||timeList[0].tenDetails!=''}}" title="10:00-11:00" value="{{timeList[0].ten}}">
+    {{timeList[0].tenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].eleven!=''||timeList[0].elevenDetails!=''}}" title="11:00-12:00" value="{{timeList[0].eleven}}">
+    {{timeList[0].elevenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].twelve!=''||timeList[0].twelveDetails!=''}}" title="12:00-13:00" value="{{timeList[0].twelve}}">
+    {{timeList[0].twelveDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].thirteen!=''||timeList[0].thirteenDetails!=''}}" title="13:00-14:00" value="{{timeList[0].thirteen}}">
+    {{timeList[0].thirteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].fourteen!=''||timeList[0].fourteenDetails!=''}}" title="14:00-15:00" value="{{timeList[0].fourteen}}">
+    {{timeList[0].fourteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].fifteen!=''||timeList[0].fifteenDetails!=''}}" title="15:00-16:00" value="{{timeList[0].fifteen}}">
+    {{timeList[0].fifteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].sixteen!=''||timeList[0].sixteenDetails!=''}}" title="16:00-17:00" value="{{timeList[0].sixteen}}">
+    {{timeList[0].sixteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].seventeen!=''||timeList[0].seventeenDetails!=''}}" title="17:00-18:00" value="{{timeList[0].seventeen}}">
+    {{timeList[0].seventeenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].eighteen!=''||timeList[0].eighteenDetails!=''}}" title="18:00-19:00" value="{{timeList[0].eighteen}}">
+    {{timeList[0].eighteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].nineteen!=''||timeList[0].nineteenDetails!=''}}" title="19:00-20:00" value="{{timeList[0].nineteen}}">
+    {{timeList[0].nineteenDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].twenty!=''||timeList[0].twentyDetails!=''}}" title="20:00-21:00" value="{{timeList[0].twenty}}">
+    {{timeList[0].twentyDetails}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].twenty1!=''||timeList[0].twenty1Details!=''}}" title="21:00-22:00" value="{{timeList[0].twenty1}}">
+    {{timeList[0].twenty1Details}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].twenty2!=''||timeList[0].twenty2Details!=''}}" title="22:00-23:00" value="{{timeList[0].twenty2}}">
+    {{timeList[0].twenty2Details}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].twenty3!=''||timeList[0].twenty3Details!=''}}" title="23:00-24:00" value="{{timeList[0].twenty3}}">
+    {{timeList[0].twenty3Details}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].twenty4!=''||timeList[0].twenty4Details!=''}}" title="00:00-01:00" value="{{timeList[0].twenty4}}">
+    {{timeList[0].twenty4Details}}
+  </van-collapse-item>
+  <van-collapse-item wx:if="{{timeList[0].remarks!=''}}" title="备注" value="点击查看">
+    {{timeList[0].remarks}}
+  </van-collapse-item>
+</van-collapse>
+<navigator url="/pages/all/all">
+  <van-button size="large" plain type="primary">查看历史计划表</van-button>
+</navigator>

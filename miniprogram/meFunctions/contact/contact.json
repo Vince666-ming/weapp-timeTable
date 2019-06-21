@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "问题反馈",
+  "usingComponents": {
+    "van-field": "vant-weapp/field",
+    "van-rate": "vant-weapp/rate",
+    "van-button": "vant-weapp/button"
+  }
+}

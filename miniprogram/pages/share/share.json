@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "分享时间表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-button": "vant-weapp/button",
+    "van-tab": "vant-weapp/tab",
+    "van-tabs": "vant-weapp/tabs"
+  }
+}

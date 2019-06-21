@@ -1,0 +1,153 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"appid": "wx2f1588c23458dc9f",
+	"projectname": "time",
+	"libVersion": "2.6.6",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 15,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "创建",
+					"pathName": "pages/create/create",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "all",
+					"pathName": "pages/all/all",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/me/me",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "contact",
+					"pathName": "meFunctions/contact/contact",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "details",
+					"pathName": "pages/details/details",
+					"query": "id: \"6cd397ca5ce01424011012ff1cd9f65b\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "template",
+					"pathName": "pages/template/template",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "share",
+					"pathName": "pages/share/share",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "upload",
+					"pathName": "pages/upload/upload",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "收藏",
+					"pathName": "pages/myCollection/myCollection",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "tianqi",
+					"pathName": "meFunctions/weather/weather",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "tianqi",
+					"pathName": "meFunctions/weather/weather",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 13,
+					"name": "comment",
+					"pathName": "pages/comment/comment",
+					"query": "id: \"c0a3987b5ce5575f0393d2482ca0ea14\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "show",
+					"pathName": "pages/show/show",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 15,
+					"name": "修改",
+					"pathName": "pages/update/update",
+					"query": "id: \"6cd397ca5cf0fd5508e66e7946c4ab6d\"",
+					"scene": null
+				}
+			]
+		}
+	}
+}
