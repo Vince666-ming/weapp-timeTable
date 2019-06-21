@@ -20,4 +20,4 @@
 ![Image text](http://r.photo.store.qq.com/psb?/V12j8otr3D6JqY/pdzjGkfkNNSZEJTP.qY*50iDY3b*I*RU2hdVLpJybKo!/r/dMMAAAAAAAAA)
 - ###我的：查看计划管理收藏
 管理历史计划表和收藏分享列表，上传用户反馈和获取详细天气状况。
-![Image text](https://6875-huanjing-q1wqk-1259065852.tcb.qcloud.la/other/me.png?sign=804fca940df7c00d200b85cfad2c3440&t=1561124466)
+![Image text](http://r.photo.store.qq.com/psb?/V12j8otr3D6JqY/kETRiybcRc9wviOne1sNfV8hmUc9tI6cvkk2HVoWS*Q!/r/dFYBAAAAAAAA)
