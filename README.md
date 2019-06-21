@@ -1,13 +1,23 @@
 # 作息时间表在线制作
 
-这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
-
-- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
-- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
-- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
-
-## 参考文档
-
-- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
-
-![Image text](https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1488598967,681368208&fm=27&gp=0.jpg)
+“作息时间表在线制作”小程序是一款有关时间管理的小程序，通过小程序，用户可以在线创建、下载和分享时间表。
+由于小程序含“社交”内容，需要企业认证，暂时无法上线发布，有兴趣者可以通过邮箱联系我，我可以在手机端给你体验权限。
+##**技术方案**
+- 前端：wxss + wxml +js
+- 后端：小程序云存储+云函数+云数据库
+##**功能介绍**
+- ###首页：下载纸质版源文档
+提供空白时间表，用户可以翻页查看各时间表样式，下载word或excel版源文档。
+![Image text](http://r.photo.store.qq.com/psb?/V12j8otr3D6JqY/FyZvGannCe3z8ZTP7eDZ77InRkaawIc0xfb4lC0eyck!/r/dDUBAAAAAAAA)
+- ###创建：创建线上版计划表
+以日为单位创建时间表，用户可以根据时间提示输入计划事项并进行提交，然后查看刚刚创建的时间表和所有时间表。
+![Image text](http://r.photo.store.qq.com/psb?/V12j8otr3D6JqY/X4p9279H4rlamVuXC6Krjb1SRk9M1.vGAUm4brNTkfk!/r/dD4BAAAAAAAA)
+- ###分享：用户分享时间计划
+展示用户分享的时间表图片和介绍，用户可以上传图片及文	字，可以对每条分享进行预览、点赞、收藏、下载和评论。
+![Image text](http://r.photo.store.qq.com/psb?/V12j8otr3D6JqY/2V0ZtOUPyIBOUWvfis5cuZN38.r5n987m.*ax5ywGMI!/r/dFMBAAAAAAAA)
+- ###模板：针对性展示时间表
+展示已经填写过的优质时间表，用户可以对这些时间表的图	片和文档进行下载。
+![Image text](http://r.photo.store.qq.com/psb?/V12j8otr3D6JqY/pdzjGkfkNNSZEJTP.qY*50iDY3b*I*RU2hdVLpJybKo!/r/dMMAAAAAAAAA)
+- ###我的：查看计划管理收藏
+管理历史计划表和收藏分享列表，上传用户反馈和获取详细天气状况。
+![Image text](https://6875-huanjing-q1wqk-1259065852.tcb.qcloud.la/other/me.png?sign=804fca940df7c00d200b85cfad2c3440&t=1561124466)
