@@ -1,4 +1,4 @@
-<img src="http://r.photo.store.qq.com/psb?/V12j8otr3D6JqY/FyZvGannCe3z8ZTP7eDZ77InRkaawIc0xfb4lC0eyck!/r/dDUBAAAAAAAA" alt="Smiley face" width="42" height="42">
+<img src="http://r.photo.store.qq.com/psb?/V12j8otr3D6JqY/FyZvGannCe3z8ZTP7eDZ77InRkaawIc0xfb4lC0eyck!/r/dDUBAAAAAAAA" alt="Smiley face" width="150">
 # 作息时间表在线制作
 
 “作息时间表在线制作”小程序是一款有关时间管理的小程序，通过小程序，用户可以在线创建、下载和分享时间表。
