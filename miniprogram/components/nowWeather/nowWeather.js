@@ -28,7 +28,7 @@ Component({
       var _this = this;
       // 获取IP地址
       wx.request({
-        url: 'https://www.tianqiapi.com/api/?version=v1',
+        url: 'https://www.tianqiapi.com/api/?version=v1&cityid=101110101&appid=77118166&appsecret=wQ7NdnTF',
         data: {},
         method: 'POST',
         header: {
@@ -49,7 +49,7 @@ Component({
     weathertoday: function(ip) {
       var _this = this;
       wx.request({
-        url: 'https://www.tianqiapi.com/api/?version=v6',
+        url: 'https://www.tianqiapi.com/api/?version=v6&cityid=101110101&appid=77118166&appsecret=wQ7NdnTF',
         
         method: 'GET',
         header: {
@@ -67,7 +67,7 @@ Component({
     weatherweekday: function(ip) {
       var _this = this;
       wx.request({
-        url: 'https://www.tianqiapi.com/api/?version=v1',
+        url: 'https://www.tianqiapi.com/api/?version=v1&cityid=101110101&appid=77118166&appsecret=wQ7NdnTF',
         method: 'GET',
         header: {
           'content-type': 'application/x-www-form-urlencoded'
