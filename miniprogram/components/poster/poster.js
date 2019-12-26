@@ -5,11 +5,11 @@ Page({
     interval: 5000,
     duration: 1000,
     imgUrls: [
-      "https://www.vince666.cn/poster/poster-gaoKao.jpg",
-      "https://www.vince666.cn/poster/poster-kaoYan.jpg",
-      "https://www.vince666.cn/poster/poster-exercise.jpg",
-      "https://www.vince666.cn/poster/poster-mo.jpg",
-      "https://www.vince666.cn/poster/poster-vacation.jpg",
+      "http://file.vince666.cn/poster/poster-gaoKao.jpg",
+      "http://file.vince666.cn/poster/poster-kaoYan.jpg",
+      "http://file.vince666.cn/poster/poster-exercise.jpg",
+      "http://file.vince666.cn/poster/poster-mo.jpg",
+      "http://file.vince666.cn/poster/poster-vacation.jpg",
     ]
   },
   navBtn: function(e) {
