@@ -9,7 +9,8 @@
 ## 功能介绍
  ### 首页：下载纸质版源文档
 提供空白时间表，用户可以翻页查看各时间表样式，下载word或excel版源文档。
-<img src="http://file.vince666.cn/timetable/a.jpg" alt="Smiley face" width="500"/>
+<img src="https://file.vince666.cn/timetable/a.jpg" alt="Smiley face" width="500"/>
+ ![image](https://file.vince666.cn/timetable/a.jpg" alt="Smiley face)
 ### 创建：创建线上版计划表
 以日为单位创建时间表，用户可以根据时间提示输入计划事项并进行提交，然后查看刚刚创建的时间表和所有时间表。
 <img src="http://file.vince666.cn/timetable/b.jpg" alt="Smiley face" width="500"/>
