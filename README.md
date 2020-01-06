@@ -11,7 +11,9 @@
 ##功能介绍
 - ###首页：下载纸质版源文档
 提供空白时间表，用户可以翻页查看各时间表样式，下载word或excel版源文档。
+
 <img src="https://file.vince666.cn/timetable/b.jpg" width="500"/>
+
 - ###创建：创建线上版计划表
 以日为单位创建时间表，用户可以根据时间提示输入计划事项并进行提交，然后查看刚刚创建的时间表和所有时间表。
 ![Image text](http://r.photo.store.qq.com/psb?/V12j8otr3D6JqY/X4p9279H4rlamVuXC6Krjb1SRk9M1.vGAUm4brNTkfk!/r/dD4BAAAAAAAA)
