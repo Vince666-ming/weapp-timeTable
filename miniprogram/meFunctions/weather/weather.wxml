@@ -3,19 +3,19 @@
   <view class="today">
     <view class="title">{{weather.city}}实况天气预报</view>
     <view>气象台 {{weather.update_time}} 更新</view>
-    <view>{{weather.tem}}℃ {{weather.wea}}</view>
-    <view>{{weather.win}} {{weather.win_speed}} {{weather.win_meter}}</view>
-    <view>湿度: {{weather.humidity}}</view>
-    <view>能见度: {{weather.visibility}}</view>
-    <view>气压: {{weather.pressure}}hPa</view>
-    <view>空气质量 {{weather.air_level}}</view>
-    <view>友情提示：{{weather.air_tips}}</view>
+    <view>{{weather.data[0].tem}}℃ {{weather.data[0].wea}}</view>
+    <view>{{weather.data[0].win[0]}} {{weather.data[0].win_speed}} </view>
+    <view>紫外线指数: {{weather.data[0].index[0].level}}</view>
+    <view>穿衣指数: {{weather.data[0].index[3].level}}</view>
+    <view>洗车指数: {{weather.data[0].index[4].level}}hPa</view>
+    <view>空气质量 {{weather.data[0].index[5].level}}</view>
+    <view>友情提示：{{weather.data[0].index[1].desc}}</view>
   </view>
   <view class="hr"></view>
   <view class="week">
     <view class="title">{{weather.city}}七日天气</view>
-    <block wx:for='{{weatherweek.data}}' wx:key='key_list'>
-      <view>{{item.day}} - {{item.wea}} - {{item.win[0]}} - {{item.tem1}}/{{item.tem2}}</view>
+    <block wx:for='{{weather.data}}' wx:key='key_list'>
+      <view>{{item.day}} - {{item.wea}} - {{item.tem1}}/{{item.tem2}}</view>
     </block>
   </view>
   <view class="hr"></view>
