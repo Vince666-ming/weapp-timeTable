@@ -1,12 +1,12 @@
 <view class='container'>
   <view class="today">
-    <view class="title">
-      <image class="a" src="/pages/logs/bar/local.png" />{{location.province}}·{{location.city}} </view>
-    <view class="temperature">{{weather.date}} (实时:{{weather.tem}}℃)</view>
-    <view class="weather">明天天气：{{weatherweek.data[1].wea}}({{weatherweek.data[1].tem2}}~{{weatherweek.data[1].tem1}})</view>
+    <view class ="title">
+      <image class="a" src="/pages/logs/bar/local.png" />{{location.city}}.{{location.province}} </view>
+    <view class="temperature">{{weather.data[0].date}} (实时:{{weather.data[0].tem}})</view>
+    <view class="weather">明天天气：{{weather.data[1].wea}}({{weather.data[1].tem2}}~{{weather.data[1].tem1}})</view>
     <view class="space">
-      <view class="wind">空气质量：{{weather.air_level}}　湿度：{{weather.humidity}}　{{weather.win}}：{{weather.win_speed}}</view>
-      <!-- <view class="wind">{{weatherweek.data[1].index[1].desc}}</view> -->
+      <view class="wind">空气质量：{{weather.data[0].index[5].level}}　紫外线：{{weather.data[0].index[0].level}}　</view>
+      <view class="wind">{{weather.data[0].index[3].desc}}　</view>
     </view>
   </view>
 </view>
