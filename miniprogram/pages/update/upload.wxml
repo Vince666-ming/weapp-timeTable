@@ -1,0 +1,14 @@
+<view class='login' wx:if="{{hasUserInfo==false}}">
+  <van-button class='loginBtn' size="large" type="info" open-type="getUserInfo" bind:getuserinfo="getUserInfo">授权登录</van-button>
+</view>
+<view wx:else>
+  <view class="hr"></view>
+  <!-- <van-cell-group> -->
+  <van-field value="{{ content }}" border="{{ false }}" maxlength="300" type="textarea" placeholder="随便写点什么吧~" size="large" autosize bind:change="onContentChange" />
+  <view class="space1"></view>
+  <image class='img' data-id='{{images}}' bindtap="previewImg" src="{{item}}" wx:for="{{images}}" wx:key="{{index}}"></image>
+  <image class="img" bindtap="uploadImg" src='/pages/logs/bar/camera.jpg' />
+  <!-- <van-button size="normal" type="primary" bindtap="submit">允许</van-button> -->
+
+  <van-button size="large" type="warning" bindtap="submit">提交</van-button>
+</view>
